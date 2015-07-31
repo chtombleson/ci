@@ -52,6 +52,7 @@ Settings
   * directory: directory that contains composer.json | project root (Optional)
   * prefer_dist: true | false (Optional)
 
+
     setup:
       Composer:
         action: [install|update]
@@ -67,6 +68,7 @@ Settings
   * reply_to: email reply to (Optional)
   * subject: email subject (Optional)
 
+
     notifications:
       Email:
         to: email address
@@ -81,6 +83,7 @@ Settings
   * repo: repo url (Required)
   * branch: git branch (Optional)
 
+
     setup:
       Git:
         repo: https://github.com/chtombleson/ci.git
@@ -93,6 +96,7 @@ Settings
   * bin: path to phpcs binary (Optional)
   * standard: code sniffer standard (Required)
   * ignores: files/directories to ignore (Optional)
+
 
     test:
       PHPCS:
@@ -107,6 +111,7 @@ Settings
   * bin: path to phpunit binary (Optional)
   * config: path to phpunit.xml  (Required)
   * bootstrap: path to bootstrap file (Optional)
+
 
     test:
       PHPUnit:
@@ -123,6 +128,7 @@ Settings
   * options: string of options (Optional)
   * excludes: files/directories to exclude (Optional)
 
+
     deploy:
       Rsync:
         source: source directory/file
@@ -135,6 +141,7 @@ Settings
 Settings
 
   * command: command to run
+
 
     setup|test|tear_down|deploy:
       Shell:
