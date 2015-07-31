@@ -52,6 +52,7 @@ Settings
   * directory: directory that contains composer.json | project root (Optional)
   * prefer_dist: true | false (Optional)
 
+Example config
 
     setup:
       Composer:
@@ -68,6 +69,7 @@ Settings
   * reply_to: email reply to (Optional)
   * subject: email subject (Optional)
 
+Example config
 
     notifications:
       Email:
@@ -83,6 +85,7 @@ Settings
   * repo: repo url (Required)
   * branch: git branch (Optional)
 
+Example config
 
     setup:
       Git:
@@ -97,6 +100,7 @@ Settings
   * standard: code sniffer standard (Required)
   * ignores: files/directories to ignore (Optional)
 
+Example config
 
     test:
       PHPCS:
@@ -109,9 +113,10 @@ Settings
 Settings
 
   * bin: path to phpunit binary (Optional)
-  * config: path to phpunit.xml  (Required)
+  * config: path to phpunit.xml (Required)
   * bootstrap: path to bootstrap file (Optional)
 
+Example config
 
     test:
       PHPUnit:
@@ -128,6 +133,7 @@ Settings
   * options: string of options (Optional)
   * excludes: files/directories to exclude (Optional)
 
+Example config
 
     deploy:
       Rsync:
@@ -142,6 +148,7 @@ Settings
 
   * command: command to run
 
+Example config
 
     setup|test|tear_down|deploy:
       Shell:
