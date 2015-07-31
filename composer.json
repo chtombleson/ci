@@ -1,0 +1,18 @@
+{
+  "require": {
+    "ext-pdo": "*",
+    "twig/twig": "@stable",
+    "symfony/console": "@stable",
+    "symfony/yaml": "@stable",
+    "phpunit/phpunit": "@stable",
+    "phpmd/phpmd": "@stable",
+    "squizlabs/php_codesniffer": "@stable",
+    "monolog/monolog": "@stable",
+    "chtombleson/omnimessage": "@stable"
+  },
+  "autoload": {
+    "psr-0": {
+      "CI": "src"
+    }
+  }
+}

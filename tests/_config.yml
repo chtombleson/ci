@@ -1,0 +1,7 @@
+test:
+  hello: "world"
+  stuff:
+    crazy: "hi"
+    left:
+      swt: "dude"
+      epic: "man"

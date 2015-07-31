@@ -1,0 +1,6 @@
+config/*.yml
+config/projects/*.yml
+builds/*
+!builds/.gitkeep
+logs/*.log
+vendor/
