@@ -38,7 +38,7 @@ class Config
 
     public function get($key)
     {
-        if (strpos($key, '.')) {
+        if (strpos($key, '.') !== false) {
             $paths = explode('.', $key);
         } else {
             $paths = [$key];
@@ -49,8 +49,6 @@ class Config
 
         if ($depth == 1 && isset($current[$paths[0]])) {
             return $current[$paths[0]];
-        } else {
-            return null;
         }
 
         $current = $current[$paths[0]];
